@@ -1,0 +1,44 @@
+.container{
+    display: flex;
+
+    flex-direction: row;
+    /*flex-direction: row-reverse;*/
+    /* flex-direction: column; */
+    /*flex-direction: column-reverse;*/
+
+    border: 2px solid yellow;
+
+    /* use align items when dealing with columns */
+    align-items: center;
+    /* align-items: stretch; */
+    /* align-items: end; */
+    /* align-items: start; */
+
+    /* use justify content when dealing with rows */
+    /* justify-content: baseline; */
+    /* justify-content: center; */
+    /* justify-content: start; */
+    /* justify-content: space-around; */
+    justify-content: space-evenly;
+}
+.box{
+    /* width: 250px;
+    height: 150px; */
+    border: 1px solid red;
+    font-size: 63px;
+}
+#one{
+  order: 5;
+}
+#two{
+  order: 4;
+}
+#three{
+  order: 3;
+}
+#four{
+  order: 2;
+}
+#five{
+  order: 1;
+}
